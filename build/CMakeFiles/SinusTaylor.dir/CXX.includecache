@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/workspaces/sin_pol/main.cpp
+cmath
+-
+iostream
+-
+sinus_taylor.hpp
+/workspaces/sin_pol/sinus_taylor.hpp
+
+/workspaces/sin_pol/sinus_taylor.cpp
+sinus_taylor.hpp
+/workspaces/sin_pol/sinus_taylor.hpp
+iostream
+-
+
+/workspaces/sin_pol/sinus_taylor.hpp
+

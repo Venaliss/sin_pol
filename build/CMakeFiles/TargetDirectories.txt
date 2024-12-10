@@ -1,0 +1,3 @@
+/workspaces/sin_pol/build/CMakeFiles/rebuild_cache.dir
+/workspaces/sin_pol/build/CMakeFiles/edit_cache.dir
+/workspaces/sin_pol/build/CMakeFiles/main.dir
