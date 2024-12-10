@@ -42,15 +42,15 @@ namespace sinus_taylor {
         return result;
     }
 
-    void print_sin(float x) {
+    void print_sin(const float& x) {
         std::cout << "sin = " << x << " with type float" << std::endl;
     }
 
-    void print_sin(double x) {
+    void print_sin(const double& x) {
         std::cout << "sin = " << x << " with type double" << std::endl;
     }
 
-    void print_sin(long double x) {
+    void print_sin(const long double& x) {
         std::cout << "sin = " << x << " with type long double" << std::endl;
     }
 

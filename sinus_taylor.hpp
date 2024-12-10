@@ -7,9 +7,9 @@ namespace sinus_taylor {
     double sin(double x);
     long double sin(long double x);
 
-    void print_sin(float x);
-    void print_sin(double x);
-    void print_sin(long double x);
+    void print_sin(const float& x);
+    void print_sin(const double& x);
+    void print_sin(const long double& x);
 
 }
 
