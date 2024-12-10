@@ -5,7 +5,7 @@ namespace sinus_taylor {
 
     float sin(float x) {
         float result = 0.0f;
-        float term = x; // 1st term
+        float term = x;
         int n = 1;
 
         while (std::abs(term) >= 1e-6f) {
@@ -18,7 +18,7 @@ namespace sinus_taylor {
 
     double sin(double x) {
         double result = 0.0;
-        double term = x; // 1st term
+        double term = x;
         int n = 1;
 
         while (std::abs(term) >= 1e-6) {
@@ -31,7 +31,7 @@ namespace sinus_taylor {
 
     long double sin(long double x) {
         long double result = 0.0L;
-        long double term = x; // 1st term
+        long double term = x;
         int n = 1;
 
         while (std::abs(term) >= 1e-6L) {
